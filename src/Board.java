@@ -1,5 +1,10 @@
 package com.company;
 
+import com.googlecode.lanterna.*;
+import com.googlecode.lanterna.input.Key;
+import com.googlecode.lanterna.terminal.Terminal;
+import com.googlecode.lanterna.terminal.TerminalSize;
+
 public class Board {
     // Makes the board
     private int lenght = 20;
