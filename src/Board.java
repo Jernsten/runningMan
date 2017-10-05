@@ -1,3 +1,5 @@
+package com.company;
+
 public class Board {
     // Makes the board
     private int lenght = 20;
