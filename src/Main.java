@@ -40,6 +40,13 @@ public class Main {
             } while (key ==null);
 
             System.out.println(key.getCharacter() + " " + key.getKind());
+
+            //send getKind to Player, return XY position to main
+
+            //Monster1, send monster1 place (X,Y), and Player place (X,Y) - return new position
+
+            //When everything is done, we return all positions to Utskrift
+
         }
 
 
