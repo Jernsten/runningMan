@@ -1,19 +1,19 @@
-package com.company;
-
-import com.googlecode.lanterna.*;
-import com.googlecode.lanterna.input.Key;
-import com.googlecode.lanterna.terminal.Terminal;
-import com.googlecode.lanterna.terminal.TerminalSize;
-
 public class Board {
+
     // Makes the board
-    private int lenght = 20;
-    private int widht = 20;
-    private int[][] board = new int[lenght][widht];
+    private int length = 20;
+    private int width = 20;
+    private int[][] board = new int[length][width];
 
-    private void fillBoard(){
-
+    public Board(int length, int width) {
+        this.length = length;
+        this.width = width;
     }
 
+    public void fillBoard(){
+
+
+
+    }
 
 }
