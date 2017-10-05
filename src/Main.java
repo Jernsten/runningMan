@@ -11,7 +11,6 @@ public class Main {
 
 
         Terminal terminal = TerminalFacade.createTerminal(System.in, System.out, Charset.forName("UTF8"));
-
         terminal.enterPrivateMode();
 
 
@@ -40,6 +39,13 @@ public class Main {
             } while (key ==null);
 
             System.out.println(key.getCharacter() + " " + key.getKind());
+
+            // send getKind to player
+
+
+            // send
+
+
         }
 
 

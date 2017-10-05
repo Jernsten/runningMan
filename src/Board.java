@@ -10,10 +10,9 @@ public class Board {
         this.width = width;
     }
 
-    public void fillBoard(){
-        
-
-
+    public int[][] getBoard() {
+        return board;
     }
+
 
 }
